@@ -50,3 +50,7 @@ All docker projects for practice
     ```sh
     docker image rm -f vineelpellella/redis
     ```
+9. To free up unused space 
+    ```sh
+    docker system prune
+    ```
