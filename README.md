@@ -2,13 +2,14 @@
 All docker projects for practice
 
 
-#Building image using docker file
+##Building image using docker file
 
 1. Navigate to the location in terminal where Dockerfile is located
 
 2. Run below command to create a image
+```sh
     docker build -t vineelpellella/redis .
-    
+```    
 3. Run below command to start the container
     docker run vineelpellella/redis
     
